@@ -1,27 +1,24 @@
 # Dailygrind
-## A dashboard in PowerBI using order data, product data, and customer data. This dashboard aims to allow for analysis on revenue, top products, regions, and more.
+### A dashboard in PowerBI using order data, product data, and customer data. This dashboard aims to allow for analysis on revenue, top products, regions, and more.
+
+# Background
+Management requests that we identify all products with a gross margin percentage under 30% in 2025. Based on these findings, we should make recommendations to either discontinue products of increase the prices of those products
+
+
 <img width="780" height="440" alt="image" src="https://github.com/user-attachments/assets/2c28d3ad-2821-480f-be63-c5e3584b1dc3" />
 <img width="777" height="441" alt="image" src="https://github.com/user-attachments/assets/2b44bcb9-69c8-47c3-8084-8f7b678643ec" />
 
-# Data Preparation
-In SQL, I replaced null revenue values with quanity * price using: 
-````
-CASE WHEN a.Revenue is NULL 
-then p.Price * a.Quantity else a.Revenue
-````
+# My Response To Management
+Based on my findings, there are six products that have a GMP under 30% in 2025. The items are: Chemex Filters (100 Pack), Minimalist Keychain, Logo Hoodie (Black), Gooseneck Electric Kettle, Branded Ceramic Mug (Large), and the Pour-Over Starter Kit. It may be worth discontinuing the Chemex Filters (100 Pack), Minimalist Keychain, and Logo Hoodie (Black) due to the significant decrease in GMP over the years and GMP totals under 17%. Increasing the prices of the Gooseneck Electric Kettle, Branded Ceramic Mug (Large), and the Pour-Over Starter Kit should be considered, as their total GMPs are around 30%.
+<img width="348" height="94" alt="image" src="https://github.com/user-attachments/assets/8e3a75f6-0da3-47c5-a13f-61cd8f0636c5" />
 
-I also created a profit column using: 
-````
-a.Revenue - a.COGS AS Profit
-````
 
-# Answering Possible Business Questions
+# Answering Other Possible Business Questions
 
 ### Top 5 Products Based On Profit? 
 <img width="324" height="76" alt="image" src="https://github.com/user-attachments/assets/3e5ce8a4-27e2-4398-bd56-f6bed62ad434" />
 
 We can use this information to properly manage inventory and makes changes to prices if needed. 
-
 
 ### Top Categories? 
 <img width="382" height="129" alt="image" src="https://github.com/user-attachments/assets/8254c347-3677-4f37-b776-89bd0dc23ae0" />
