@@ -10,6 +10,7 @@ Management requests that we identify all products with a gross margin percentage
 
 # My Response To Management
 Based on my findings, there are six products that have a GMP under 30% in 2025. The items are: Chemex Filters (100 Pack), Minimalist Keychain, Logo Hoodie (Black), Gooseneck Electric Kettle, Branded Ceramic Mug (Large), and the Pour-Over Starter Kit. It may be worth discontinuing the Chemex Filters (100 Pack), Minimalist Keychain, and Logo Hoodie (Black) due to the significant decrease in GMP over the years and GMP totals under 17%. Increasing the prices of the Gooseneck Electric Kettle, Branded Ceramic Mug (Large), and the Pour-Over Starter Kit should be considered, as their total GMPs are around 30%.
+
 <img width="348" height="94" alt="image" src="https://github.com/user-attachments/assets/8e3a75f6-0da3-47c5-a13f-61cd8f0636c5" />
 
 
